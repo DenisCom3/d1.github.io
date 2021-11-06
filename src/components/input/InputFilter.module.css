@@ -1,0 +1,22 @@
+.container{
+	display: flex;
+	padding-top: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.input{
+	width: 30vw;
+	height: 30px;
+	border-radius: 6px;
+	border: 2px solid rgba(0, 0, 0, 0.479);
+
+}
+.input__dark{
+	background-color:#e7ecf0;
+}
+
+
+
+
+

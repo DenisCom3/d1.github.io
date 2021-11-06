@@ -1,0 +1,21 @@
+.inputWArning{
+	color: red;
+	width: 220px;
+	height: 40px;
+	border: 2px solid gray;
+	border-radius: 6px;
+	/* box-sizing: border-box; */
+}
+
+.input{
+width: 220px;
+height: 40px;
+border: 2px solid gray;
+border-radius: 6px;
+/* box-sizing: border-box; */
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+}

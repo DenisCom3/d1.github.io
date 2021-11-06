@@ -1,0 +1,12 @@
+.form{
+	display: flex;
+	justify-content: space-between;
+}
+
+.input{
+	border: 2px solid gray;
+}
+
+.inputWArning{
+	color: red;
+}

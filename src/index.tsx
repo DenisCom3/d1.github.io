@@ -1,13 +1,23 @@
-import React from 'react';
+import React, {  useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Router from './Router';
+import ThemeContext from './context'
+
+function Main(){
+  const [theme, setTheme] = useState(false)
+  // const Theme = createContext({theme,setTheme})
+
+  return(
+    <ThemeContext.Provider value={{theme,setTheme}}>
+      <Router />
+    </ThemeContext.Provider>
+  )
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Main/> ,
   document.getElementById('root')
 );
 

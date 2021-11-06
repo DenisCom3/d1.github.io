@@ -1,0 +1,12 @@
+.list{
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	padding: 5px;
+
+}
+
+.list__dark{
+	background-color: #252727;
+}
+

@@ -1,0 +1,55 @@
+.customDropdown select {
+	cursor:pointer;
+	background-color: #e7ecf0;
+	border: 2px solid rgba(0, 0, 0, 0.479);
+	color: #000;
+	font-size: inherit;
+	padding: .5em;
+	padding-right: 2.5em;	
+	margin: 0;
+	border-radius: 6px;
+	text-indent: 0.01px;
+	text-overflow: '';
+	-webkit-appearance: button; /* hide default arrow in chrome OSX */
+  }
+  
+  /* .customDropdown::before,
+  .customDropdown::after {
+	content: "";
+	position: absolute;
+	pointer-events: none;
+  }
+   */
+  /* .customDropdown::after { /*  Custom dropdown arrow 
+	content: "\25BC";
+	height: 1em;
+	font-size: .625em;
+	line-height: 1;
+	right: 1.2em;
+	top: 50%;
+	margin-top: -.5em;
+  } */
+/*   
+  .customDropdown::before { /*  Custom dropdown arrow cover 
+	width: 2em;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 0 3px 3px 0;
+  }
+  
+  .customDropdown select[disabled] {
+	color: rgba(0,0,0,.3);
+  }
+  
+  .customDropdown select[disabled]::after {
+	color: rgba(0,0,0,.1);
+  }
+  
+  .customDropdown::before {
+	background-color: rgba(0,0,0,.15);
+  }
+  
+  .customDropdown::after {
+	color: rgba(0,0,0,.4);
+  } */
