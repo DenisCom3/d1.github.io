@@ -1,13 +1,14 @@
-import React, { FC } from 'react'
+import React, { FC, useContext } from 'react'
+import ThemeContext from '../context'
 
-interface Props {
-	
-}
 
 const About:FC = () => {
+
+	const {theme} = useContext(ThemeContext)
+
 	return (
-		<div>
-			<h1>HELLO</h1>
+		<div className={theme ? 'About About__dark' : 'About'}>
+			<h1>You are Welcome!</h1>
 		</div>
 	)
 }

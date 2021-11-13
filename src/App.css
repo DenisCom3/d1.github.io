@@ -3,6 +3,25 @@
   background-color: #fbfcfd;
 }
 
+.About{
+  display: flex;
+  justify-content: center;
+  height: 92vh;
+  align-items: center;
+}
+
+.About__dark{
+  background-color: #252727;
+}
+
+.About__dark h1{
+  color: #fbfcfd;
+}
+
+.About h1 {
+  font-size: 4rem;
+}
+
 .App__dark {
   background-color: #252727;
 }

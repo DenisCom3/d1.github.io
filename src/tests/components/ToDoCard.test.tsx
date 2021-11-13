@@ -37,7 +37,7 @@ describe('ToDoCard', () => {
 			expect(mountWrapper).not.toBeNull()
 		});
 	
-		it.skip('should callback call if event change update', () => {
+		it('should callback call if event change update', () => {
 			expect(changeCheck).toBeCalledTimes(0)
 			mountWrapper.find('input').simulate('change')
 			expect(changeCheck).toBeCalledTimes(1)
